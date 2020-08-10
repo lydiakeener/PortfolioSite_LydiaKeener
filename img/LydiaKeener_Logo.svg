@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="127px" height="129px" viewBox="0 0 127 129" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2 Copy</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2-Copy" transform="translate(0.000000, 8.000000)">
+            <text id="K" font-family="Rockwell-Regular, Rockwell" font-size="121" font-weight="normal" letter-spacing="0.640588235" fill="#000000">
+                <tspan x="43" y="82">K</tspan>
+            </text>
+            <text id="L" font-family="Rockwell-Regular, Rockwell" font-size="121" font-weight="normal" letter-spacing="0.640588235" fill="#CD2653">
+                <tspan x="0" y="82">L</tspan>
+            </text>
+            <rect id="Rectangle" fill="#000000" x="56" y="3" width="13" height="65"></rect>
+            <rect id="Rectangle" fill="#CD2653" transform="translate(51.500000, 76.000000) rotate(90.000000) translate(-51.500000, -76.000000) " x="45.5" y="46.5" width="12" height="59"></rect>
+            <rect id="Rectangle" fill="#000000" x="66" y="3" width="4" height="73"></rect>
+            <polygon id="Rectangle-Copy" fill="#CD2653" transform="translate(63.000000, 66.500000) rotate(180.000000) translate(-63.000000, -66.500000) " points="56 51 65.6382585 51 70 51 70 82 63 72.572272 56 63.3347808"></polygon>
+            <rect id="Rectangle" stroke="#FFFFFF" fill="#FFFFFF" x="70.5" y="69.5" width="14" height="13"></rect>
+        </g>
+    </g>
+</svg>
