@@ -2,9 +2,14 @@
 Colors Used:
 Primary Color: Black #000000
 Secondary Color: Raspberry #E22658
-Accent: Gray #9999A1
+Accent: Dark Gray #9999A1
+Accent: Light Gray #E3E3E3
 Accent: Dark Raspberry #AC173E
 */
+
+*{
+  box-sizing: border-box;
+}
 
 body {
   font-family: 'Lato', sans-serif;
@@ -22,6 +27,7 @@ body {
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
+
 h1 {
   font-size: 2.75em;
   font-weight: 700;
@@ -64,6 +70,12 @@ a:active { /* selected link */
   color: #AC173E;
 }
 
+nav{
+  display: inline-block;
+  width: 100%;
+}
+
+
 .viewprojectbutton { /* view project button on Index.html */
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #E22658;
@@ -71,6 +83,7 @@ a:active { /* selected link */
   font-weight: 400;
   padding: 10px;
   transition: 0.2s opacity;
+
 }
 
 .viewprojectbutton:hover {
@@ -90,6 +103,8 @@ a:active { /* selected link */
   text-transform: uppercase;
   padding: 5px;
   border: 2px solid #E22658;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .buttoncontact {
@@ -98,6 +113,7 @@ a:active { /* selected link */
   text-transform: uppercase;
   padding: 5px;
   border: 2px solid #E22658;
+  margin: auto;
 }
 
 .downloadresumebutton:hover{
@@ -108,4 +124,82 @@ a:active { /* selected link */
 .buttoncontact:hover {
   background-color: #E22658;
   color: #ffffff;
+}
+
+header {
+  text-align: center;
+  position: relative;
+  padding: 10px 0;
+  background-color: #FFFFFF;
+  box-shadow:-1px 5px 11px 0px rgba(50, 50, 50, 0.55);
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #E22658
+}
+
+
+nav > ul > li > a:hover {
+color: #AC173E;
+}
+
+
+
+/* layout styling */
+
+.container {
+  padding: 0 15px;
+}
+
+.row{
+  margin:25px 0; /* 25 px top and bottom, 0 left and right */
+}
+
+#herosection p, h1 {
+  text-align: center;/* centers text */
+}
+
+#contact p, h2{
+  text-align: center;
+}
+
+#contact h2{
+  padding-top: 20px;
+}
+
+
+.logo{
+  max-width: 250px;
+}
+
+#herosection{
+  background-color: rgba(226, 38, 88, 0.8);
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.socialmedia {
+  list-style-type: none;
+  padding: 0;
+}
+
+.socialmedia > li {
+  display: inline-block;
+}
+
+.socialmedia > li > a {
+  padding: 0 10px;
 }
