@@ -103,8 +103,7 @@ nav{
   text-transform: uppercase;
   padding: 5px;
   border: 2px solid #E22658;
-  display: inline-block;
-  margin: 0 auto;
+
 }
 
 .buttoncontact {
@@ -198,6 +197,7 @@ color: #AC173E;
 
 .socialmedia > li {
   display: inline-block;
+  align-items: center;
 }
 
 .socialmedia > li > a {
