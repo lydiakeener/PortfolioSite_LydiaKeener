@@ -97,13 +97,13 @@ nav{
   text-decoration: none;
 }
 
-.downloadresumebutton{
+a.downloadresumebutton{
   background-color: transparent;
   color: #E22658;
   text-transform: uppercase;
   padding: 5px;
   border: 2px solid #E22658;
-
+  text-align: center;
 }
 
 .buttoncontact {
@@ -202,4 +202,41 @@ color: #AC173E;
 
 .socialmedia > li > a {
   padding: 0 10px;
+}
+
+footer{
+  text-align: center;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+
+
+  header{
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav{
+    width: auto;
+    float: right;
+    margin-top:4px;
+  }
+}
+
+
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
 }
