@@ -11,10 +11,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body id="about-page">
   <header>
 <div class="container"> <!--Header Div -->
-    <div class=""> <!-- Image Div-->
+    <div class="logodiv"> <!-- Image Div-->
       <img class="logo" src="img/LydiaKeener_Logo2.png" alt="LydiaKeenerLogo">
     </div> <!-- END Image Div -->
 
@@ -42,19 +42,19 @@
     <div class=""><!-- About content wrapper-->
       <picture>
         <source srcset="img/AboutPage/about_headshot@1x.jpg" media="(max-width:767px)">
-        <img src="img/AboutPage/about_headshot@2x.jpg" alt="Portrait photograph of Lydia Keener. She is wearing a red shirt against a tan wall and is smiling.">
+        <img id="headshot"src="img/AboutPage/about_headshot@2x.jpg" alt="Portrait photograph of Lydia Keener. She is wearing a red shirt against a tan wall and is smiling.">
       </picture>
       <div class=""><!-- Row for columns-->
-        <div class=""><!-- first column-->
+        <div class="col-lg-7"><!-- first column-->
           <h2>My Story</h2>
-          <p>Hi, I’m Lydia. I’m a former Teacher of the Deaf turned UX designer. With my background in working with students with disabilities, I offer experience with accessibility, flexible communication, and creative problem solving. </p>
-          <p> As a teacher of the Deaf, I saw firsthand how inaccessible bad design can be, and the larger effect it has on users. I turned to UX so that I could become a part of that solution and create inclusive digital experiences for everyone. My background in teaching has given me skills such as collaboration, a constant desire for feedback, and a tremendous amount of empathy.  I want to elevate whatever team I join by using those skills to solve real-world problems and make a positive impact on people’s lives.</p>
-          <a href="files/KeenerLydia_Resume.pdf" class="downloadresumebutton" download>Download my Resume</a>
+          <p class="mystorytext">Hi, I’m Lydia. I’m a former Teacher of the Deaf turned UX designer. With my background in working with students with disabilities, I offer experience with accessibility, flexible communication, and creative problem solving. </p>
+          <p class="mystorytext"> As a teacher of the Deaf, I saw firsthand how inaccessible bad design can be, and the larger effect it has on users. I turned to UX so that I could become a part of that solution and create inclusive digital experiences for everyone. My background in teaching has given me skills such as collaboration, a constant desire for feedback, and a tremendous amount of empathy.  I want to elevate whatever team I join by using those skills to solve real-world problems and make a positive impact on people’s lives.</p>
+          <div id="downloadresumebutton"><a href="files/KeenerLydia_Resume.pdf" class="downloadresumebutton" download>Download my Resume</a></div>
         </div><!-- END first column-->
-        <div class=""><!-- second column-->
+        <div id="skillandtools" class="col-lg-5"><!-- second column-->
           <h2>Skills & Tools</h2>
           <div class=""><!--Row for columns within columns-->
-            <div class=""><!-- First column within columns-->
+            <div class="col-md-6"><!-- First column within columns-->
               <h3>Relevent Skills</h3>
               <ul>
                 <li>Wireframing</li>
@@ -65,7 +65,7 @@
                 <li>WCAG 2.0 Compliance</li>
               </ul>
             </div><!-- END First column within columns-->
-            <div class=""><!--Second column within columns-->
+            <div class="col-md-6"><!--Second column within columns-->
               <h3>Tools I Use</h3>
               <ul>
                 <li>Sketch</li>
