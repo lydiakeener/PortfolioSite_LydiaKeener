@@ -119,10 +119,20 @@ a.downloadresumebutton{
   padding: 5px;
   border: 2px solid #E22658;
   margin:auto;
+  transition: .5s opacity;
+  text-align: center;
+}
+
+.downloadresumebutton:hover{
+  background-color: #E22658;
+  color: #ffffff;
+  opacity: 0.8;
 }
 
 #downloadresumebutton{
   text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 .buttoncontact {
@@ -132,16 +142,15 @@ a.downloadresumebutton{
   padding: 5px;
   border: 2px solid #E22658;
   margin: auto;
+  transition: .5s opacity;
 }
 
-.downloadresumebutton:hover{
-  background-color: #E22658;
-  color: #ffffff;
-}
+
 
 .buttoncontact:hover {
   background-color: #E22658;
   color: #ffffff;
+  opacity: 0.8;
 }
 
 
@@ -197,7 +206,7 @@ color: #AC173E;
 }
 
 #herosection{
-  background-color: rgba(226, 38, 88, 0.8);
+  background-color: #E3E3E3;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -220,6 +229,10 @@ color: #AC173E;
 footer{
   text-align: center;
   background-color: #E3E3E3;
+}
+
+.sendemailbutton{
+  padding-bottom:20px;
 }
 
 
@@ -334,4 +347,42 @@ Large devices (1024px or larger)
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
+}
+
+
+
+
+
+/* CSS Animations*/
+
+@keyframes color-change {
+  0% {fill:#edc655;}
+  50% {fill:#fcffad;}
+  100% {fill:#f76414;}
+}
+
+.sun{
+  animation: 4s color-change infinite alternate linear;
+}
+
+@keyframes cloud-move {
+  from {transform: translate(0, 50px);}
+  to {transform: translate(200px, 50px);}
+}
+
+.cloud-front {
+  animation-duration: 30s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }
