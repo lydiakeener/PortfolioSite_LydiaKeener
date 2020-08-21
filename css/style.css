@@ -97,13 +97,14 @@ header {
   color: #ffffff; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
-  transition: 0.2s opacity;
+  transition: 0.5s opacity;
 
 }
 
 .viewprojectbutton:hover {
-  background-color: #AC173E;
+  background-color: #E22658;
   text-decoration: none;
+  opacity: 0.8;
 }
 
 .viewprojectbutton:visited {
@@ -113,8 +114,8 @@ header {
 }
 
 a.downloadresumebutton{
-  background-color: transparent;
-  color: #E22658;
+  background-color: #E22658;
+  color: #ffffff;
   text-transform: uppercase;
   padding: 5px;
   border: 2px solid #E22658;
@@ -136,8 +137,8 @@ a.downloadresumebutton{
 }
 
 .buttoncontact {
-  background-color: transparent;
-  color: #E22658;
+  background-color: #E22658;
+  color: #ffffff;
   text-transform: uppercase;
   padding: 5px;
   border: 2px solid #E22658;
