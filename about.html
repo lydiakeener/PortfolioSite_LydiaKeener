@@ -11,24 +11,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://code.jquery.com/jquery-migrate-3.3.1.min.js" integrity="sha256-APllMc0V4lf/Rb5Cz4idWUCYlBDG3b0EcN1Ushd3hpE=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
+  <script src="https://kit.fontawesome.com/83129f5467.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="about-page">
   <header>
 <div class="container"> <!--Header Div -->
-    <div class="logodiv"> <!-- Image Div-->
-      <img class="logo" src="img/LydiaKeener_Logo2.png" alt="LydiaKeenerLogo">
+  <div class="navtoggle" id="myNavtoggle"><!--hamburger div -->
+    <div> <!-- Image Div-->
+      <img class="logo"src="img/LydiaKeener_Logo2.png" alt="LydiaKeenerLogo">
     </div> <!-- END Image Div -->
 
-    <div class=""> <!-- Nav div-->
+    <div class="" id=""> <!-- Nav div-->
       <nav>
         <ul>
           <li><a href="index.html">Work</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
         </ul>
       </nav>
     </div> <!--END nav div-->
+  </div> <!--END hamburger div-->
 </div> <!-- END header div-->
   </header>
 

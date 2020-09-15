@@ -49,7 +49,7 @@ h4 {
 
 img{
   width: 100%;
-  max-width: 150px;
+
 }
 
 a {
@@ -71,15 +71,10 @@ a:active { /* selected link */
   color: #AC173E;
 }
 
-nav{
-  display: inline-block;
-  width: 100%;
-}
 
 header {
-  text-align: center;
   position: relative;
-  padding: 10px 0;
+  padding: 10px 0 4px;
   background-color: #FFFFFF;
   box-shadow:-1px 5px 11px 0px rgba(50, 50, 50, 0.55);
 }
@@ -160,11 +155,9 @@ a.downloadresumebutton{
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
-nav > ul > li {
-  display: inline-block;
-}
 
 nav > ul > li > a {
   padding: 0 15px;
@@ -204,7 +197,7 @@ color: #AC173E;
 
 
 .logo{
-  max-width: 150px;
+  max-width: 100px;
 }
 
 #herosection{
@@ -237,11 +230,30 @@ footer{
   padding-bottom:20px;
 }
 
+nav > ul > li {
+  display: inline-block;
+}
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 50px;
+  padding-right: 0;
+  padding-top:0;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px) {
 
 
   header{
@@ -301,8 +313,21 @@ h3{
   float: none;
 }
 
+.navtoggle li:not(:last-child) {
+  display: inline-block;
 }
 
+.navtoggle li:last-child {
+  display: none;
+}
+
+nav > ul {
+  margin: 1em 0;
+}
+
+
+
+}
 
 
 /* ==============================
