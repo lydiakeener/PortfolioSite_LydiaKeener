@@ -49,6 +49,7 @@ h4 {
 
 img{
   width: 100%;
+  max-width: 150px;
 }
 
 a {
@@ -203,7 +204,7 @@ color: #AC173E;
 
 
 .logo{
-  max-width: 250px;
+  max-width: 150px;
 }
 
 #herosection{
@@ -339,6 +340,10 @@ Large devices (1024px or larger)
   float: right;
 }
 
+.logo{
+  min-width: 300px;
+}
+
 
 
 }
@@ -348,6 +353,11 @@ Large devices (1024px or larger)
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
+
+  .logo{
+    min-width: 300px;
+  }
+
 }
 
 
