@@ -254,10 +254,12 @@ nav > ul > li {
 .navtoggle.responsive li {
   display: block;
   padding:10px 0;
-  border-top: 1px solid rgba(255,127,80,.05);
+  border-top: 1px solid;
+  color:yellow;
 }
 .navtoggle.responsive nav {
   padding: 24px 0 0;
+  color: yellow;
 }
 
 .navtoggle.responsive li:last-child  {
@@ -297,9 +299,6 @@ Medium devices (640px and larger)
   width:50%;
 }
 
-/*.col-lg-7{
-  margin-bottom: 10px;
-} /* to add space between resume button and "skills and tools" header*/
 
 [class*="col-"]{
   float: left;
