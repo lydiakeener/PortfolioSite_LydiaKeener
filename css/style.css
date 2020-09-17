@@ -255,11 +255,10 @@ nav > ul > li {
   display: block;
   padding:10px 0;
   border-top: 1px solid;
-  color:yellow;
+  color:#9999A1;
 }
 .navtoggle.responsive nav {
   padding: 24px 0 0;
-  color: yellow;
 }
 
 .navtoggle.responsive li:last-child  {
