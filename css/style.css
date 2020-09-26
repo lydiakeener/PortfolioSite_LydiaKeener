@@ -265,6 +265,22 @@ nav > ul > li {
   padding: 0 0 10px;
 }
 
+#IntroText {
+  font-size: 25px;
+}
+
+h2.project {
+  color: #E22658;
+}
+
+h4.project{
+  color:#AC173E;
+}
+
+img.screenshot{
+  width:50%;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
