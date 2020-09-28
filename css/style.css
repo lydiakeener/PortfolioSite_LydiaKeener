@@ -7,7 +7,7 @@ Accent: Light Gray #E3E3E3
 Accent: Dark Raspberry #AC173E
 */
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -18,9 +18,12 @@ body {
 body {
   background-color: #ffffff;
   font-family: 'Lato', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  font-weight: 300;
+  /* Sets the font weight to 300 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
   color: #000000;
 }
 
@@ -42,41 +45,43 @@ h3 {
   font-size: 1.75em;
   font-weight: 400;
 }
+
 h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
 
-img{
+img {
   width: 100%;
-
 }
 
 a {
   color: #E22658;
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
+  /* No underlining */
 }
 
-a:hover
-a:focus{
+a:hover a:focus {
   color: #AC173E;
-  text-decoration: underline; /* Underlining when hovering over a link */
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
 }
 
-a:visited { /* visited link */
+a:visited {
+  /* visited link */
   color: #E22658;
 }
 
-a:active { /* selected link */
+a:active {
+  /* selected link */
   color: #AC173E;
 }
-
 
 header {
   position: relative;
   padding: 10px 0 4px;
   background-color: #FFFFFF;
-  box-shadow:-1px 5px 11px 0px rgba(50, 50, 50, 0.55);
+  box-shadow: -1px 5px 11px 0px rgba(50, 50, 50, 0.55);
 }
 
 /*.mystory{
@@ -86,11 +91,13 @@ header {
 .mystorytext {
   text-align: left;
 }*/
-
-.viewprojectbutton { /* view project button on Index.html */
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+.viewprojectbutton {
+  /* view project button on Index.html */
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #E22658;
-  color: #ffffff; /* needed to override the default link color */
+  color: #ffffff;
+  /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   transition: opacity 0.5s;
@@ -104,29 +111,30 @@ header {
 }
 
 .viewprojectbutton:visited {
-  color:#FFFFFF;
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  color: #FFFFFF;
+  opacity: 0.8;
+  /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
 
-a.downloadresumebutton{
+a.downloadresumebutton {
   background-color: #E22658;
   color: #ffffff;
   text-transform: uppercase;
   padding: 5px;
   border: 2px solid #E22658;
-  margin:auto;
+  margin: auto;
   transition: .5s opacity;
   text-align: center;
 }
 
-.downloadresumebutton:hover{
+.downloadresumebutton:hover {
   background-color: #E22658;
   color: #ffffff;
   opacity: 0.7;
 }
 
-#downloadresumebutton{
+#downloadresumebutton {
   text-align: center;
   padding-bottom: 20px;
   padding-top: 10px;
@@ -142,65 +150,57 @@ a.downloadresumebutton{
   transition: .5s opacity;
 }
 
-
-
 .buttoncontact:hover {
   background-color: #E22658;
   color: #ffffff;
   opacity: 0.8;
 }
 
-
-
-nav > ul {
+nav>ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-
-nav > ul > li > a {
+nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #E22658
 }
 
-
-nav > ul > li > a:hover {
-color: #AC173E;
+nav>ul>li>a:hover {
+  color: #AC173E;
 }
 
-
-
 /* layout styling */
-
 .container {
   padding: 0 15px;
 }
 
-.row{
-  margin:25px 0; /* 25 px top and bottom, 0 left and right */
+.row {
+  margin: 25px 0;
+  /* 25 px top and bottom, 0 left and right */
 }
 
 #herosection p, h1 {
-  text-align: center;/* centers text */
+  text-align: center;
+  /* centers text */
 }
 
-#contact p, h2{
+#contact p, h2 {
   text-align: center;
 }
 
-#contact h2{
+#contact h2 {
   padding-top: 20px;
 }
 
-
-.logo{
+.logo {
   max-width: 100px;
 }
 
-#herosection{
+#herosection {
   background-color: #E3E3E3;
   padding: 20px 0;
   display: inline-block;
@@ -212,25 +212,25 @@ color: #AC173E;
   padding: 0;
 }
 
-.socialmedia > li {
+.socialmedia>li {
   display: inline-block;
   align-items: center;
 }
 
-.socialmedia > li > a {
+.socialmedia>li>a {
   padding: 0 10px;
 }
 
-footer{
+footer {
   text-align: center;
   background-color: #E3E3E3;
 }
 
-.sendemailbutton{
-  padding-bottom:20px;
+.sendemailbutton {
+  padding-bottom: 20px;
 }
 
-nav > ul > li {
+nav>ul>li {
   display: inline-block;
 }
 
@@ -248,20 +248,21 @@ nav > ul > li {
   top: 2px;
   font-size: 50px;
   padding-right: 0;
-  padding-top:0;
+  padding-top: 0;
 }
 
 .navtoggle.responsive li {
   display: block;
-  padding:10px 0;
+  padding: 10px 0;
   border-top: 1px solid;
-  color:#9999A1;
+  color: #9999A1;
 }
+
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 
@@ -273,21 +274,19 @@ h2.project {
   color: #E22658;
 }
 
-h4.project{
-  color:#AC173E;
+h4.project {
+  color: #AC173E;
 }
 
-img.screenshot{
-  width:50%;
+img.screenshot {
+  width: 50%;
 }
 
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 641px) {
-
-
-  header{
+  header {
     text-align: unset;
     padding: 20px 0 13px;
     overflow: hidden;
@@ -295,143 +294,140 @@ Medium devices (640px and larger)
     font-size: 22px;
   }
 
-  .logo{
+  .logo {
     float: left;
     width: 150px;
   }
 
-  nav{
+  nav {
     width: auto;
     float: right;
-    margin-top:4px;
+    margin-top: 4px;
   }
 
-  #herosection span{
+  #herosection span {
     display: block;
   }
 
-.col-md-6{
-  width:50%;
+  .col-md-6 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 20px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  #herosection p {
+    font-size: 20px;
+  }
+
+  #about-page h3 {
+    margin-top: 0;
+  }
+
+  #skillandtools {
+    float: none;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
+  nav>ul {
+    margin: 1em 0;
+  }
 }
-
-
-[class*="col-"]{
-  float: left;
-  padding: 20px;
-}
-
-.row::after{
-  content: "";
-  clear: both;
-  display: table;
-}
-
-h3{
-  margin:0;
-}
-#herosection p{
-  font-size: 20px;
-}
-
-#about-page h3 {
-  margin-top: 0;
-}
-
-#skillandtools{
-  float: none;
-}
-
-.navtoggle li:not(:last-child) {
-  display: inline-block;
-}
-
-.navtoggle li:last-child {
-  display: none;
-}
-
-nav > ul {
-  margin: 1em 0;
-}
-
-
-
-}
-
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.container{
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  .col-lg-7 {
+    width: 60%;
+  }
+
+  .col-lg-5 {
+    width: 40%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 10px;
+  }
+
+  #headshot {
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #skillandtools {
+    float: right;
+  }
+
+  .logo {
+    min-width: 300px;
+  }
 }
-
-.col-lg-7{
-  width:60%;
-}
-
-.col-lg-5{
-  width:40%;
-}
-
-[class*="col-"]{
-  float: left;
-  padding: 10px;
-}
-
-#headshot{
-  width: 700px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#skillandtools{
-  float: right;
-}
-
-.logo{
-  min-width: 300px;
-}
-
-
-
-}
-
 
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
-
-  .logo{
+  .logo {
     min-width: 300px;
   }
-
 }
-
-
-
-
 
 /* CSS Animations*/
-
 @keyframes color-change {
-  0% {fill:#edc655;}
-  50% {fill:#fcffad;}
-  100% {fill:#f76414;}
+  0% {
+    fill: #edc655;
+  }
+
+  50% {
+    fill: #fcffad;
+  }
+
+  100% {
+    fill: #f76414;
+  }
 }
 
-.sun{
+.sun {
   animation: 4s color-change infinite alternate linear;
 }
 
 @keyframes cloud-move {
-  from {transform: translate(0, 50px);}
-  to {transform: translate(200px, 50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
 }
 
 .cloud-front {
@@ -443,8 +439,13 @@ X-large devices (1440px or larger)
 }
 
 @keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
+  from {
+    transform: translate(446px, 48px);
+  }
+
+  to {
+    transform: translate(100px, 48px);
+  }
 }
 
 .cloud-back {
