@@ -7,6 +7,7 @@ Accent: Light Gray #E3E3E3
 Accent: Dark Raspberry #AC173E
 */
 
+
 * {
   box-sizing: border-box;
 }
@@ -404,15 +405,15 @@ X-large devices (1440px or larger)
 /* CSS Animations*/
 @keyframes color-change {
   0% {
-    fill: #edc655;
+    color: #edc655;
   }
 
   50% {
-    fill: #fcffad;
+    color: #fcffad;
   }
 
   100% {
-    fill: #f76414;
+    color: #f76414;
   }
 }
 
